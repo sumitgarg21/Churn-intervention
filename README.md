@@ -1,4 +1,4 @@
-# RetentionIQ — Churn Prediction with Causal Uplift Scoring
+# Churn Prediction with Causal Uplift Scoring
 
 A churn model tells you *who will leave*. This tells you *who is worth saving*.
 
@@ -94,17 +94,6 @@ In production, the simulated treatment would be replaced with actual A/B test lo
 - scikit-learn (StratifiedKFold, threshold optimization, evaluation metrics)
 - MLflow (experiment tracking, model logging)
 - Matplotlib, Seaborn
-
----
-
-## Project Structure
-
-```
-retentioniq/
-├── churn-intervention.ipynb    # full notebook: EDA, feature engineering, modeling, uplift
-└── README.md
-```
-
 ---
 
 ## How to Run
